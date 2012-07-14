@@ -2,7 +2,7 @@
 
 echo -n "Installing themes..."
 
-mkdir -p $HOME/.gnome2/gedit/styles/
-cp ./styles/*.xml $HOME/.gnome2/gedit/styles/.
+mkdir -p $HOME/.local/share/gedit/styles/
+cp ./styles/*.xml $HOME/.local/share/gedit/styles/.
 
 echo
